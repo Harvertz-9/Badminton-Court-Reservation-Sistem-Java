@@ -1,0 +1,156 @@
+Ida Bagus Putu Angga Lesmana | 2501010066 / I Putu Bryan Aditya Nugraha | 2501010016 / Mas Bagus Khrisna Adinata | 2501010098
+===== BADMINTON COURT RESERVATION SYSTEM =====
+1. Lihat daftar lapangan
+2. Ubah data lapangan (nama / tarif dasar / ketersediaan)
+3. Daftarkan member baru
+4. Lihat daftar member
+5. Buat booking
+6. Lihat riwayat transaksi
+7. Tandai booking LUNAS
+8. Demo otomatis: ALUR UTAMA
+9. Demo otomatis: SKENARIO ERROR
+0. Keluar
+Pilih menu: ---------------------------------------------------------------------------
+ID    Jenis            Nama         Tarif Dasar    Tarif/Jam      Tersedia  
+---------------------------------------------------------------------------
+L01   LapanganVinyl    Lapangan A   Rp50.000       Rp50.000       Ya        
+L02   LapanganVinyl    Lapangan B   Rp50.000       Rp50.000       Ya        
+L03   LapanganKarpet   Lapangan C   Rp50.000       Rp40.000       Ya        
+---------------------------------------------------------------------------
+--- Proses selesai ---
+===== BADMINTON COURT RESERVATION SYSTEM =====
+1. Lihat daftar lapangan
+2. Ubah data lapangan (nama / tarif dasar / ketersediaan)
+3. Daftarkan member baru
+4. Lihat daftar member
+5. Buat booking
+6. Lihat riwayat transaksi
+7. Tandai booking LUNAS
+8. Demo otomatis: ALUR UTAMA
+9. Demo otomatis: SKENARIO ERROR
+0. Keluar
+Pilih menu: Nama member: Nomor HP: Member Agus Wirawan berhasil didaftarkan dengan ID M003
+--- Proses selesai ---
+===== BADMINTON COURT RESERVATION SYSTEM =====
+1. Lihat daftar lapangan
+2. Ubah data lapangan (nama / tarif dasar / ketersediaan)
+3. Daftarkan member baru
+4. Lihat daftar member
+5. Buat booking
+6. Lihat riwayat transaksi
+7. Tandai booking LUNAS
+8. Demo otomatis: ALUR UTAMA
+9. Demo otomatis: SKENARIO ERROR
+0. Keluar
+Pilih menu: ID lapangan: Tanggal (dd-MM-yyyy): Jam mulai (HH:mm): Durasi (jam): Jenis penyewa (1=Member, 2=Non-member): ID member: ================================================
+      STRUK RESERVASI LAPANGAN BULU TANGKIS
+================================================
+ID Booking     : B001
+Nama Penyewa   : Budi Santoso (Member)
+Lapangan       : Lapangan A (LapanganVinyl)
+Tanggal        : 20-11-2026
+Jam            : 10:00 - 12:00 (2 jam)
+Tarif per jam  : Rp50.000
+Subtotal       : Rp100.000
+Diskon Member  : 10% (-Rp10.000)
+Total Biaya    : Rp90.000
+Status Bayar   : BELUM LUNAS
+================================================
+--- Proses selesai ---
+===== BADMINTON COURT RESERVATION SYSTEM =====
+1. Lihat daftar lapangan
+2. Ubah data lapangan (nama / tarif dasar / ketersediaan)
+3. Daftarkan member baru
+4. Lihat daftar member
+5. Buat booking
+6. Lihat riwayat transaksi
+7. Tandai booking LUNAS
+8. Demo otomatis: ALUR UTAMA
+9. Demo otomatis: SKENARIO ERROR
+0. Keluar
+Pilih menu: ID lapangan: Tanggal (dd-MM-yyyy): Jam mulai (HH:mm): Durasi (jam): Jenis penyewa (1=Member, 2=Non-member): Nama penyewa: ================================================
+      STRUK RESERVASI LAPANGAN BULU TANGKIS
+================================================
+ID Booking     : B002
+Nama Penyewa   : Rina (Non-member)
+Lapangan       : Lapangan C (LapanganKarpet)
+Tanggal        : 20-11-2026
+Jam            : 19:00 - 22:00 (3 jam)
+Tarif per jam  : Rp40.000
+Subtotal       : Rp120.000
+Diskon Member  : -
+Total Biaya    : Rp120.000
+Status Bayar   : BELUM LUNAS
+================================================
+--- Proses selesai ---
+===== BADMINTON COURT RESERVATION SYSTEM =====
+1. Lihat daftar lapangan
+2. Ubah data lapangan (nama / tarif dasar / ketersediaan)
+3. Daftarkan member baru
+4. Lihat daftar member
+5. Buat booking
+6. Lihat riwayat transaksi
+7. Tandai booking LUNAS
+8. Demo otomatis: ALUR UTAMA
+9. Demo otomatis: SKENARIO ERROR
+0. Keluar
+Pilih menu: ID lapangan: Tanggal (dd-MM-yyyy): Jam mulai (HH:mm): Durasi (jam): Jenis penyewa (1=Member, 2=Non-member): ID member: ================================================
+      STRUK RESERVASI LAPANGAN BULU TANGKIS
+================================================
+ID Booking     : B003
+Nama Penyewa   : Sari Dewi (Member)
+Lapangan       : Lapangan B (LapanganVinyl)
+Tanggal        : 20-11-2026
+Jam            : 08:00 - 09:00 (1 jam)
+Tarif per jam  : Rp50.000
+Subtotal       : Rp50.000
+Diskon Member  : 0% (-Rp0)
+Total Biaya    : Rp50.000
+Status Bayar   : BELUM LUNAS
+================================================
+--- Proses selesai ---
+===== BADMINTON COURT RESERVATION SYSTEM =====
+1. Lihat daftar lapangan
+2. Ubah data lapangan (nama / tarif dasar / ketersediaan)
+3. Daftarkan member baru
+4. Lihat daftar member
+5. Buat booking
+6. Lihat riwayat transaksi
+7. Tandai booking LUNAS
+8. Demo otomatis: ALUR UTAMA
+9. Demo otomatis: SKENARIO ERROR
+0. Keluar
+Pilih menu: ID booking: Booking B001 berhasil ditandai LUNAS
+--- Proses selesai ---
+===== BADMINTON COURT RESERVATION SYSTEM =====
+1. Lihat daftar lapangan
+2. Ubah data lapangan (nama / tarif dasar / ketersediaan)
+3. Daftarkan member baru
+4. Lihat daftar member
+5. Buat booking
+6. Lihat riwayat transaksi
+7. Tandai booking LUNAS
+8. Demo otomatis: ALUR UTAMA
+9. Demo otomatis: SKENARIO ERROR
+0. Keluar
+Pilih menu: ---------------------------------------------------------------------------------------
+ID     Penyewa          Lapangan     Tanggal      Jam            Total        Status      
+---------------------------------------------------------------------------------------
+B001   Budi Santoso     Lapangan A   20-11-2026   10:00-12:00    Rp90.000     LUNAS       
+B002   Rina             Lapangan C   20-11-2026   19:00-22:00    Rp120.000    BELUM LUNAS 
+B003   Sari Dewi        Lapangan B   20-11-2026   08:00-09:00    Rp50.000     BELUM LUNAS 
+---------------------------------------------------------------------------------------
+--- Proses selesai ---
+===== BADMINTON COURT RESERVATION SYSTEM =====
+1. Lihat daftar lapangan
+2. Ubah data lapangan (nama / tarif dasar / ketersediaan)
+3. Daftarkan member baru
+4. Lihat daftar member
+5. Buat booking
+6. Lihat riwayat transaksi
+7. Tandai booking LUNAS
+8. Demo otomatis: ALUR UTAMA
+9. Demo otomatis: SKENARIO ERROR
+0. Keluar
+Pilih menu: Terima kasih telah menggunakan aplikasi.
+--- Proses selesai ---

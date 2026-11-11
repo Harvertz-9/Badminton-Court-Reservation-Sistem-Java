@@ -1,0 +1,176 @@
+Ida Bagus Putu Angga Lesmana | 2501010066 / I Putu Bryan Aditya Nugraha | 2501010016 / Mas Bagus Khrisna Adinata | 2501010098
+===== BADMINTON COURT RESERVATION SYSTEM =====
+1. Lihat daftar lapangan
+2. Ubah data lapangan (nama / tarif dasar / ketersediaan)
+3. Daftarkan member baru
+4. Lihat daftar member
+5. Buat booking
+6. Lihat riwayat transaksi
+7. Tandai booking LUNAS
+8. Demo otomatis: ALUR UTAMA
+9. Demo otomatis: SKENARIO ERROR
+0. Keluar
+Pilih menu: ID lapangan: Tanggal (dd-MM-yyyy): Jam mulai (HH:mm): Durasi (jam): Input harus berupa angka
+--- Proses selesai ---
+===== BADMINTON COURT RESERVATION SYSTEM =====
+1. Lihat daftar lapangan
+2. Ubah data lapangan (nama / tarif dasar / ketersediaan)
+3. Daftarkan member baru
+4. Lihat daftar member
+5. Buat booking
+6. Lihat riwayat transaksi
+7. Tandai booking LUNAS
+8. Demo otomatis: ALUR UTAMA
+9. Demo otomatis: SKENARIO ERROR
+0. Keluar
+Pilih menu: ID lapangan: Tanggal (dd-MM-yyyy): Jam mulai (HH:mm): Durasi (jam): Jenis penyewa (1=Member, 2=Non-member): Nama penyewa: ================================================
+      STRUK RESERVASI LAPANGAN BULU TANGKIS
+================================================
+ID Booking     : B001
+Nama Penyewa   : Dasar (Non-member)
+Lapangan       : Lapangan A (LapanganVinyl)
+Tanggal        : 21-11-2026
+Jam            : 15:00 - 17:00 (2 jam)
+Tarif per jam  : Rp50.000
+Subtotal       : Rp100.000
+Diskon Member  : -
+Total Biaya    : Rp100.000
+Status Bayar   : BELUM LUNAS
+================================================
+--- Proses selesai ---
+===== BADMINTON COURT RESERVATION SYSTEM =====
+1. Lihat daftar lapangan
+2. Ubah data lapangan (nama / tarif dasar / ketersediaan)
+3. Daftarkan member baru
+4. Lihat daftar member
+5. Buat booking
+6. Lihat riwayat transaksi
+7. Tandai booking LUNAS
+8. Demo otomatis: ALUR UTAMA
+9. Demo otomatis: SKENARIO ERROR
+0. Keluar
+Pilih menu: ID lapangan: Tanggal (dd-MM-yyyy): Jam mulai (HH:mm): Durasi (jam): Jenis penyewa (1=Member, 2=Non-member): Nama penyewa: Jadwal bentrok: Jadwal bentrok pada Lapangan A tanggal 21-11-2026 jam 16:00 - 18:00
+--- Proses selesai ---
+===== BADMINTON COURT RESERVATION SYSTEM =====
+1. Lihat daftar lapangan
+2. Ubah data lapangan (nama / tarif dasar / ketersediaan)
+3. Daftarkan member baru
+4. Lihat daftar member
+5. Buat booking
+6. Lihat riwayat transaksi
+7. Tandai booking LUNAS
+8. Demo otomatis: ALUR UTAMA
+9. Demo otomatis: SKENARIO ERROR
+0. Keluar
+Pilih menu: ID lapangan: Tanggal (dd-MM-yyyy): Jam mulai (HH:mm): Durasi (jam): Jenis penyewa (1=Member, 2=Non-member): Nama penyewa: ================================================
+      STRUK RESERVASI LAPANGAN BULU TANGKIS
+================================================
+ID Booking     : B002
+Nama Penyewa   : Tepi (Non-member)
+Lapangan       : Lapangan A (LapanganVinyl)
+Tanggal        : 21-11-2026
+Jam            : 17:00 - 18:00 (1 jam)
+Tarif per jam  : Rp50.000
+Subtotal       : Rp50.000
+Diskon Member  : -
+Total Biaya    : Rp50.000
+Status Bayar   : BELUM LUNAS
+================================================
+--- Proses selesai ---
+===== BADMINTON COURT RESERVATION SYSTEM =====
+1. Lihat daftar lapangan
+2. Ubah data lapangan (nama / tarif dasar / ketersediaan)
+3. Daftarkan member baru
+4. Lihat daftar member
+5. Buat booking
+6. Lihat riwayat transaksi
+7. Tandai booking LUNAS
+8. Demo otomatis: ALUR UTAMA
+9. Demo otomatis: SKENARIO ERROR
+0. Keluar
+Pilih menu: Nama member: Nomor HP: Data tidak valid: Nomor HP harus berupa angka 10-13 digit
+--- Proses selesai ---
+===== BADMINTON COURT RESERVATION SYSTEM =====
+1. Lihat daftar lapangan
+2. Ubah data lapangan (nama / tarif dasar / ketersediaan)
+3. Daftarkan member baru
+4. Lihat daftar member
+5. Buat booking
+6. Lihat riwayat transaksi
+7. Tandai booking LUNAS
+8. Demo otomatis: ALUR UTAMA
+9. Demo otomatis: SKENARIO ERROR
+0. Keluar
+Pilih menu: ID lapangan: Tanggal (dd-MM-yyyy): Jam mulai (HH:mm): Durasi (jam): Jenis penyewa (1=Member, 2=Non-member): Nama penyewa: Data tidak valid: Durasi harus antara 1 sampai 8 jam
+--- Proses selesai ---
+===== BADMINTON COURT RESERVATION SYSTEM =====
+1. Lihat daftar lapangan
+2. Ubah data lapangan (nama / tarif dasar / ketersediaan)
+3. Daftarkan member baru
+4. Lihat daftar member
+5. Buat booking
+6. Lihat riwayat transaksi
+7. Tandai booking LUNAS
+8. Demo otomatis: ALUR UTAMA
+9. Demo otomatis: SKENARIO ERROR
+0. Keluar
+Pilih menu: ID lapangan: Tanggal (dd-MM-yyyy): Jam mulai (HH:mm): Format tanggal/jam salah: Text '25:99' could not be parsed: Invalid value for MinuteOfHour (valid values 0 - 59): 99
+--- Proses selesai ---
+===== BADMINTON COURT RESERVATION SYSTEM =====
+1. Lihat daftar lapangan
+2. Ubah data lapangan (nama / tarif dasar / ketersediaan)
+3. Daftarkan member baru
+4. Lihat daftar member
+5. Buat booking
+6. Lihat riwayat transaksi
+7. Tandai booking LUNAS
+8. Demo otomatis: ALUR UTAMA
+9. Demo otomatis: SKENARIO ERROR
+0. Keluar
+Pilih menu: ---------------------------------------------------------------------------
+ID    Jenis            Nama         Tarif Dasar    Tarif/Jam      Tersedia  
+---------------------------------------------------------------------------
+L01   LapanganVinyl    Lapangan A   Rp50.000       Rp50.000       Ya        
+L02   LapanganVinyl    Lapangan B   Rp50.000       Rp50.000       Ya        
+L03   LapanganKarpet   Lapangan C   Rp50.000       Rp40.000       Ya        
+---------------------------------------------------------------------------
+--- Proses selesai ---
+===== BADMINTON COURT RESERVATION SYSTEM =====
+1. Lihat daftar lapangan
+2. Ubah data lapangan (nama / tarif dasar / ketersediaan)
+3. Daftarkan member baru
+4. Lihat daftar member
+5. Buat booking
+6. Lihat riwayat transaksi
+7. Tandai booking LUNAS
+8. Demo otomatis: ALUR UTAMA
+9. Demo otomatis: SKENARIO ERROR
+0. Keluar
+Pilih menu: Masukkan ID lapangan: Lapangan tidak ditemukan
+--- Proses selesai ---
+===== BADMINTON COURT RESERVATION SYSTEM =====
+1. Lihat daftar lapangan
+2. Ubah data lapangan (nama / tarif dasar / ketersediaan)
+3. Daftarkan member baru
+4. Lihat daftar member
+5. Buat booking
+6. Lihat riwayat transaksi
+7. Tandai booking LUNAS
+8. Demo otomatis: ALUR UTAMA
+9. Demo otomatis: SKENARIO ERROR
+0. Keluar
+Pilih menu: Pilihan tidak valid
+--- Proses selesai ---
+===== BADMINTON COURT RESERVATION SYSTEM =====
+1. Lihat daftar lapangan
+2. Ubah data lapangan (nama / tarif dasar / ketersediaan)
+3. Daftarkan member baru
+4. Lihat daftar member
+5. Buat booking
+6. Lihat riwayat transaksi
+7. Tandai booking LUNAS
+8. Demo otomatis: ALUR UTAMA
+9. Demo otomatis: SKENARIO ERROR
+0. Keluar
+Pilih menu: Terima kasih telah menggunakan aplikasi.
+--- Proses selesai ---

@@ -1,0 +1,11 @@
+# Build output
+bin/
+out/
+build/
+dist/
+*.class
+
+# IDE
+.vscode/
+nbproject/private/
+*.log
