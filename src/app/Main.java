@@ -31,10 +31,14 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         try {
-            // Baris pertama output: identitas kelompok.
-            System.out.println("Ida Bagus Putu Angga Lesmana | 2501010066 / "
-                    + "I Putu Bryan Aditya Nugraha | 2501010016 / "
-                    + "Mas Bagus Khrisna Adinata | 2501010098");
+            // Identitas kelompok.
+            System.out.println();
+            System.out.println("Kelompok 4");
+            System.out.println();
+            System.out.println("I Putu Bryan Aditya Nugraha | 2501010016");
+            System.out.println("Ida Bagus Putu Angga Lesmana | 2501010066");
+            System.out.println("Mas Bagus Khrisna Adinata | 2501010098");
+            System.out.println();
 
             // [OOP: Polymorphism] List bertipe Lapangan diisi objek subclass.
             List<Lapangan> daftarLapangan = new ArrayList<>();
