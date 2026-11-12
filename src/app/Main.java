@@ -81,12 +81,6 @@ public class Main {
                         case "7":
                             tandaiLunas(scanner, manager);
                             break;
-                        case "8":
-                            demoAlurUtama(daftarLapangan, daftarMember, manager);
-                            break;
-                        case "9":
-                            demoSkenarioError(daftarLapangan, manager);
-                            break;
                         case "0":
                             jalan = false;
                             System.out.println("Terima kasih telah menggunakan aplikasi.");
@@ -123,8 +117,6 @@ public class Main {
         System.out.println("5. Buat booking");
         System.out.println("6. Lihat riwayat transaksi");
         System.out.println("7. Tandai booking LUNAS");
-        System.out.println("8. Demo otomatis: ALUR UTAMA");
-        System.out.println("9. Demo otomatis: SKENARIO ERROR");
         System.out.println("0. Keluar");
         System.out.print("Pilih menu: ");
     }
@@ -273,141 +265,6 @@ public class Main {
             }
         }
         System.out.println("Booking tidak ditemukan");
-    }
-
-    private static void demoAlurUtama(List<Lapangan> daftarLapangan,
-            List<Member> daftarMember, BookingManager manager) {
-        System.out.println("===== DEMO ALUR UTAMA (tanggal 20-11-2026) =====");
-        LocalDate tanggal = LocalDate.parse("20-11-2026", FORMAT_TANGGAL);
-
-        System.out.println("[LANGKAH 1] Daftar lapangan dan hitungTarif()");
-        lihatLapangan(daftarLapangan);
-
-        System.out.println("[LANGKAH 2] Daftarkan member baru");
-        try {
-            Member agus = new Member(idMemberBerikutnya(daftarMember), "Agus Wirawan", "081355512345");
-            daftarMember.add(agus);
-            System.out.println("Member " + agus.getNama() + " didaftarkan dengan ID " + agus.getId());
-        } catch (IllegalArgumentException e) {
-            System.out.println("Gagal daftar member: " + e.getMessage());
-        }
-
-        Booking bookingSatu = null;
-        System.out.println("[LANGKAH 3] Booking 1: Budi Santoso (M001), L01, 10:00, 2 jam");
-        try {
-            Member budi = cariMember(daftarMember, "M001");
-            bookingSatu = new Booking(idBookingBerikutnya(manager), budi.getNama(), tanggal,
-                    LocalTime.of(10, 0), 2, cariLapangan(daftarLapangan, "L01"), budi);
-            manager.tambahBooking(bookingSatu);
-            System.out.println(bookingSatu.cetakStruk());
-        } catch (Exception e) {
-            System.out.println("Booking 1 gagal: " + e.getMessage());
-        }
-
-        System.out.println("[LANGKAH 4] Booking 2: Rina (non-member), L03, 19:00, 3 jam");
-        try {
-            Booking bookingDua = new Booking(idBookingBerikutnya(manager), "Rina", tanggal,
-                    LocalTime.of(19, 0), 3, cariLapangan(daftarLapangan, "L03"), null);
-            manager.tambahBooking(bookingDua);
-            System.out.println(bookingDua.cetakStruk());
-        } catch (Exception e) {
-            System.out.println("Booking 2 gagal: " + e.getMessage());
-        }
-
-        System.out.println("[LANGKAH 5] Booking 3: Sari Dewi (M002, tidak aktif), L02, 08:00, 1 jam");
-        try {
-            Member sari = cariMember(daftarMember, "M002");
-            Booking bookingTiga = new Booking(idBookingBerikutnya(manager), sari.getNama(), tanggal,
-                    LocalTime.of(8, 0), 1, cariLapangan(daftarLapangan, "L02"), sari);
-            manager.tambahBooking(bookingTiga);
-            System.out.println(bookingTiga.cetakStruk());
-        } catch (Exception e) {
-            System.out.println("Booking 3 gagal: " + e.getMessage());
-        }
-
-        System.out.println("[LANGKAH 6] Tandai booking pertama LUNAS lalu tampilkan riwayat");
-        if (bookingSatu != null) {
-            bookingSatu.setStatusBayar("LUNAS");
-            System.out.println("Booking " + bookingSatu.getId() + " ditandai LUNAS");
-        }
-        lihatRiwayat(manager);
-    }
-
-    private static void demoSkenarioError(List<Lapangan> daftarLapangan, BookingManager manager) {
-        System.out.println("===== DEMO SKENARIO ERROR (tanggal 21-11-2026) =====");
-        LocalDate tanggal = LocalDate.parse("21-11-2026", FORMAT_TANGGAL);
-        Lapangan l01 = cariLapangan(daftarLapangan, "L01");
-
-        System.out.println("[KASUS 1] Siapkan booking dasar L01, 15:00, 2 jam");
-        try {
-            Booking dasar = new Booking(idBookingBerikutnya(manager), "Dasar", tanggal,
-                    LocalTime.of(15, 0), 2, l01, null);
-            manager.tambahBooking(dasar);
-            System.out.println("Booking dasar dibuat dengan ID " + dasar.getId());
-        } catch (Exception e) {
-            System.out.println("Booking dasar dilewati: " + e.getMessage());
-        }
-
-        System.out.println("[KASUS 2] Jadwal bentrok: L01, 16:00, 2 jam");
-        try {
-            Booking bentrok = new Booking(idBookingBerikutnya(manager), "Bentrok", tanggal,
-                    LocalTime.of(16, 0), 2, l01, null);
-            manager.tambahBooking(bentrok);
-            System.out.println("[KASUS 2] Tidak terdeteksi bentrok (tidak diharapkan)");
-        } catch (JadwalBentrokException e) {
-            System.out.println("[KASUS 2] Jadwal bentrok -> JadwalBentrokException: " + e.getMessage());
-        } catch (Exception e) {
-            System.out.println("[KASUS 2] Kesalahan lain: " + e.getMessage());
-        }
-
-        System.out.println("[KASUS 3] Bukan bentrok (batas waktu): L01, 17:00, 1 jam");
-        try {
-            Booking tepi = new Booking(idBookingBerikutnya(manager), "Tepi", tanggal,
-                    LocalTime.of(17, 0), 1, l01, null);
-            manager.tambahBooking(tepi);
-            System.out.println("[KASUS 3] Booking batas waktu berhasil, total "
-                    + rupiah(tepi.getTotalBiaya()));
-        } catch (Exception e) {
-            System.out.println("[KASUS 3] Gagal: " + e.getMessage());
-        }
-
-        System.out.println("[KASUS 4] Nomor HP tidak valid: 08123abc");
-        try {
-            new Member("M999", "Test", "08123abc");
-            System.out.println("[KASUS 4] Tidak terdeteksi (tidak diharapkan)");
-        } catch (IllegalArgumentException e) {
-            System.out.println("[KASUS 4] Nomor HP salah -> IllegalArgumentException: " + e.getMessage());
-        }
-
-        System.out.println("[KASUS 5] Input huruf pada durasi: \"dua\"");
-        try {
-            Integer.parseInt("dua");
-            System.out.println("[KASUS 5] Tidak terdeteksi (tidak diharapkan)");
-        } catch (NumberFormatException e) {
-            System.out.println("[KASUS 5] Durasi harus berupa angka -> NumberFormatException: "
-                    + e.getMessage());
-        }
-
-        System.out.println("[KASUS 6] Format jam salah: 25:99");
-        try {
-            LocalTime.parse("25:99");
-            System.out.println("[KASUS 6] Tidak terdeteksi (tidak diharapkan)");
-        } catch (DateTimeParseException e) {
-            System.out.println("[KASUS 6] Format jam harus HH:mm -> DateTimeParseException: "
-                    + e.getMessage());
-        }
-
-        System.out.println("[KASUS 7] Durasi di luar batas: 0 jam");
-        try {
-            new Booking(idBookingBerikutnya(manager), "Salah", tanggal,
-                    LocalTime.of(20, 0), 0, l01, null);
-            System.out.println("[KASUS 7] Tidak terdeteksi (tidak diharapkan)");
-        } catch (IllegalArgumentException e) {
-            System.out.println("[KASUS 7] Durasi di luar batas -> IllegalArgumentException: "
-                    + e.getMessage());
-        }
-
-        System.out.println("Semua skenario error berhasil ditangani, program tetap berjalan.");
     }
 
     private static Lapangan cariLapangan(List<Lapangan> daftarLapangan, String id) {

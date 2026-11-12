@@ -1,4 +1,10 @@
-Ida Bagus Putu Angga Lesmana | 2501010066 / I Putu Bryan Aditya Nugraha | 2501010016 / Mas Bagus Khrisna Adinata | 2501010098
+
+Kelompok 4
+
+I Putu Bryan Aditya Nugraha | 2501010016
+Ida Bagus Putu Angga Lesmana | 2501010066
+Mas Bagus Khrisna Adinata | 2501010098
+
 ===== BADMINTON COURT RESERVATION SYSTEM =====
 1. Lihat daftar lapangan
 2. Ubah data lapangan (nama / tarif dasar / ketersediaan)
@@ -7,8 +13,6 @@ Ida Bagus Putu Angga Lesmana | 2501010066 / I Putu Bryan Aditya Nugraha | 250101
 5. Buat booking
 6. Lihat riwayat transaksi
 7. Tandai booking LUNAS
-8. Demo otomatis: ALUR UTAMA
-9. Demo otomatis: SKENARIO ERROR
 0. Keluar
 Pilih menu: ID lapangan: Tanggal (dd-MM-yyyy): Jam mulai (HH:mm): Durasi (jam): Input harus berupa angka
 --- Proses selesai ---
@@ -20,8 +24,6 @@ Pilih menu: ID lapangan: Tanggal (dd-MM-yyyy): Jam mulai (HH:mm): Durasi (jam): 
 5. Buat booking
 6. Lihat riwayat transaksi
 7. Tandai booking LUNAS
-8. Demo otomatis: ALUR UTAMA
-9. Demo otomatis: SKENARIO ERROR
 0. Keluar
 Pilih menu: ID lapangan: Tanggal (dd-MM-yyyy): Jam mulai (HH:mm): Durasi (jam): Jenis penyewa (1=Member, 2=Non-member): Nama penyewa: ================================================
       STRUK RESERVASI LAPANGAN BULU TANGKIS
@@ -46,8 +48,6 @@ Status Bayar   : BELUM LUNAS
 5. Buat booking
 6. Lihat riwayat transaksi
 7. Tandai booking LUNAS
-8. Demo otomatis: ALUR UTAMA
-9. Demo otomatis: SKENARIO ERROR
 0. Keluar
 Pilih menu: ID lapangan: Tanggal (dd-MM-yyyy): Jam mulai (HH:mm): Durasi (jam): Jenis penyewa (1=Member, 2=Non-member): Nama penyewa: Jadwal bentrok: Jadwal bentrok pada Lapangan A tanggal 21-11-2026 jam 16:00 - 18:00
 --- Proses selesai ---
@@ -59,8 +59,6 @@ Pilih menu: ID lapangan: Tanggal (dd-MM-yyyy): Jam mulai (HH:mm): Durasi (jam): 
 5. Buat booking
 6. Lihat riwayat transaksi
 7. Tandai booking LUNAS
-8. Demo otomatis: ALUR UTAMA
-9. Demo otomatis: SKENARIO ERROR
 0. Keluar
 Pilih menu: ID lapangan: Tanggal (dd-MM-yyyy): Jam mulai (HH:mm): Durasi (jam): Jenis penyewa (1=Member, 2=Non-member): Nama penyewa: ================================================
       STRUK RESERVASI LAPANGAN BULU TANGKIS
@@ -85,8 +83,6 @@ Status Bayar   : BELUM LUNAS
 5. Buat booking
 6. Lihat riwayat transaksi
 7. Tandai booking LUNAS
-8. Demo otomatis: ALUR UTAMA
-9. Demo otomatis: SKENARIO ERROR
 0. Keluar
 Pilih menu: Nama member: Nomor HP: Data tidak valid: Nomor HP harus berupa angka 10-13 digit
 --- Proses selesai ---
@@ -98,8 +94,6 @@ Pilih menu: Nama member: Nomor HP: Data tidak valid: Nomor HP harus berupa angka
 5. Buat booking
 6. Lihat riwayat transaksi
 7. Tandai booking LUNAS
-8. Demo otomatis: ALUR UTAMA
-9. Demo otomatis: SKENARIO ERROR
 0. Keluar
 Pilih menu: ID lapangan: Tanggal (dd-MM-yyyy): Jam mulai (HH:mm): Durasi (jam): Jenis penyewa (1=Member, 2=Non-member): Nama penyewa: Data tidak valid: Durasi harus antara 1 sampai 8 jam
 --- Proses selesai ---
@@ -111,8 +105,6 @@ Pilih menu: ID lapangan: Tanggal (dd-MM-yyyy): Jam mulai (HH:mm): Durasi (jam): 
 5. Buat booking
 6. Lihat riwayat transaksi
 7. Tandai booking LUNAS
-8. Demo otomatis: ALUR UTAMA
-9. Demo otomatis: SKENARIO ERROR
 0. Keluar
 Pilih menu: ID lapangan: Tanggal (dd-MM-yyyy): Jam mulai (HH:mm): Format tanggal/jam salah: Text '25:99' could not be parsed: Invalid value for MinuteOfHour (valid values 0 - 59): 99
 --- Proses selesai ---
@@ -124,8 +116,6 @@ Pilih menu: ID lapangan: Tanggal (dd-MM-yyyy): Jam mulai (HH:mm): Format tanggal
 5. Buat booking
 6. Lihat riwayat transaksi
 7. Tandai booking LUNAS
-8. Demo otomatis: ALUR UTAMA
-9. Demo otomatis: SKENARIO ERROR
 0. Keluar
 Pilih menu: ---------------------------------------------------------------------------
 ID    Jenis            Nama         Tarif Dasar    Tarif/Jam      Tersedia  
@@ -143,8 +133,6 @@ L03   LapanganKarpet   Lapangan C   Rp50.000       Rp40.000       Ya
 5. Buat booking
 6. Lihat riwayat transaksi
 7. Tandai booking LUNAS
-8. Demo otomatis: ALUR UTAMA
-9. Demo otomatis: SKENARIO ERROR
 0. Keluar
 Pilih menu: Masukkan ID lapangan: Lapangan tidak ditemukan
 --- Proses selesai ---
@@ -156,8 +144,6 @@ Pilih menu: Masukkan ID lapangan: Lapangan tidak ditemukan
 5. Buat booking
 6. Lihat riwayat transaksi
 7. Tandai booking LUNAS
-8. Demo otomatis: ALUR UTAMA
-9. Demo otomatis: SKENARIO ERROR
 0. Keluar
 Pilih menu: Pilihan tidak valid
 --- Proses selesai ---
@@ -169,8 +155,6 @@ Pilih menu: Pilihan tidak valid
 5. Buat booking
 6. Lihat riwayat transaksi
 7. Tandai booking LUNAS
-8. Demo otomatis: ALUR UTAMA
-9. Demo otomatis: SKENARIO ERROR
 0. Keluar
 Pilih menu: Terima kasih telah menggunakan aplikasi.
 --- Proses selesai ---

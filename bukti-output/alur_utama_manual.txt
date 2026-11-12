@@ -1,4 +1,10 @@
-Ida Bagus Putu Angga Lesmana | 2501010066 / I Putu Bryan Aditya Nugraha | 2501010016 / Mas Bagus Khrisna Adinata | 2501010098
+
+Kelompok 4
+
+I Putu Bryan Aditya Nugraha | 2501010016
+Ida Bagus Putu Angga Lesmana | 2501010066
+Mas Bagus Khrisna Adinata | 2501010098
+
 ===== BADMINTON COURT RESERVATION SYSTEM =====
 1. Lihat daftar lapangan
 2. Ubah data lapangan (nama / tarif dasar / ketersediaan)
@@ -7,8 +13,6 @@ Ida Bagus Putu Angga Lesmana | 2501010066 / I Putu Bryan Aditya Nugraha | 250101
 5. Buat booking
 6. Lihat riwayat transaksi
 7. Tandai booking LUNAS
-8. Demo otomatis: ALUR UTAMA
-9. Demo otomatis: SKENARIO ERROR
 0. Keluar
 Pilih menu: ---------------------------------------------------------------------------
 ID    Jenis            Nama         Tarif Dasar    Tarif/Jam      Tersedia  
@@ -26,8 +30,6 @@ L03   LapanganKarpet   Lapangan C   Rp50.000       Rp40.000       Ya
 5. Buat booking
 6. Lihat riwayat transaksi
 7. Tandai booking LUNAS
-8. Demo otomatis: ALUR UTAMA
-9. Demo otomatis: SKENARIO ERROR
 0. Keluar
 Pilih menu: Nama member: Nomor HP: Member Agus Wirawan berhasil didaftarkan dengan ID M003
 --- Proses selesai ---
@@ -39,8 +41,6 @@ Pilih menu: Nama member: Nomor HP: Member Agus Wirawan berhasil didaftarkan deng
 5. Buat booking
 6. Lihat riwayat transaksi
 7. Tandai booking LUNAS
-8. Demo otomatis: ALUR UTAMA
-9. Demo otomatis: SKENARIO ERROR
 0. Keluar
 Pilih menu: ID lapangan: Tanggal (dd-MM-yyyy): Jam mulai (HH:mm): Durasi (jam): Jenis penyewa (1=Member, 2=Non-member): ID member: ================================================
       STRUK RESERVASI LAPANGAN BULU TANGKIS
@@ -65,8 +65,6 @@ Status Bayar   : BELUM LUNAS
 5. Buat booking
 6. Lihat riwayat transaksi
 7. Tandai booking LUNAS
-8. Demo otomatis: ALUR UTAMA
-9. Demo otomatis: SKENARIO ERROR
 0. Keluar
 Pilih menu: ID lapangan: Tanggal (dd-MM-yyyy): Jam mulai (HH:mm): Durasi (jam): Jenis penyewa (1=Member, 2=Non-member): Nama penyewa: ================================================
       STRUK RESERVASI LAPANGAN BULU TANGKIS
@@ -91,8 +89,6 @@ Status Bayar   : BELUM LUNAS
 5. Buat booking
 6. Lihat riwayat transaksi
 7. Tandai booking LUNAS
-8. Demo otomatis: ALUR UTAMA
-9. Demo otomatis: SKENARIO ERROR
 0. Keluar
 Pilih menu: ID lapangan: Tanggal (dd-MM-yyyy): Jam mulai (HH:mm): Durasi (jam): Jenis penyewa (1=Member, 2=Non-member): ID member: ================================================
       STRUK RESERVASI LAPANGAN BULU TANGKIS
@@ -117,8 +113,6 @@ Status Bayar   : BELUM LUNAS
 5. Buat booking
 6. Lihat riwayat transaksi
 7. Tandai booking LUNAS
-8. Demo otomatis: ALUR UTAMA
-9. Demo otomatis: SKENARIO ERROR
 0. Keluar
 Pilih menu: ID booking: Booking B001 berhasil ditandai LUNAS
 --- Proses selesai ---
@@ -130,8 +124,6 @@ Pilih menu: ID booking: Booking B001 berhasil ditandai LUNAS
 5. Buat booking
 6. Lihat riwayat transaksi
 7. Tandai booking LUNAS
-8. Demo otomatis: ALUR UTAMA
-9. Demo otomatis: SKENARIO ERROR
 0. Keluar
 Pilih menu: ---------------------------------------------------------------------------------------
 ID     Penyewa          Lapangan     Tanggal      Jam            Total        Status      
@@ -149,8 +141,6 @@ B003   Sari Dewi        Lapangan B   20-11-2026   08:00-09:00    Rp50.000     BE
 5. Buat booking
 6. Lihat riwayat transaksi
 7. Tandai booking LUNAS
-8. Demo otomatis: ALUR UTAMA
-9. Demo otomatis: SKENARIO ERROR
 0. Keluar
 Pilih menu: Terima kasih telah menggunakan aplikasi.
 --- Proses selesai ---
